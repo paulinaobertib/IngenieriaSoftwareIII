@@ -1,16 +1,15 @@
 Creación de Repos 1  
 Crearlo en GitHub, clonarlo localmente y subir cambios  
-![][image1]  
-![][image2]  
-![][image3]  
-![][image4]  
-![][image5]  
-![][image6]  
-![][image7]  
-![][image8]  
-![][image9]  
-![][image10]  
-![][image11]
+![][imagenes/1.png]  
+![][imagenes/2.png]  
+![][imagenes/3.png]  
+![][imagenes/4.png]  
+![][imagenes/5.png]  
+![][imagenes/6.png]  
+![][imagenes/7.png]  
+![][imagenes/8.png]  
+![][imagenes/9.png]  
+![][imagenes/10.png]  
 
 Creación de Repos 2  
 Crearlo localmente y subirlo a GitHub  
