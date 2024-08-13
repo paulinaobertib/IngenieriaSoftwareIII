@@ -37,9 +37,13 @@
 ![](imagenes/29.png)
 ![](imagenes/30.png)
 ![](imagenes/31.png)
-![](imagenes/32.png)
 ![](imagenes/33.png)
+![](imagenes/32.png)
 - Volumenes
 ![](imagenes/34.png)
 ![](imagenes/35.png)
 - Base de datos
+![](imagenes/36.png)
+![](imagenes/37.png)
+docker run: Este comando creó e inició una instancia de PostgreSQL 9.4 en un contenedor Docker. La base de datos está configurada para persistir sus datos en un directorio de la máquina local, y es accesible a través del puerto 5432.
+docker exec: Este comando da acceso a una terminal interactiva dentro del contenedor de PostgreSQL, permitiendo ejecutar comandos directamente dentro del entorno del contenedor.
