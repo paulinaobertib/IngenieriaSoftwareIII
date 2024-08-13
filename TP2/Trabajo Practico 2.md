@@ -14,5 +14,32 @@
 ![](imagenes/10.png)
 ![](imagenes/11.png)
 ![](imagenes/12.png)
-- SimpleWebAPI
+- Construir una imagen (SimpleWebAPI) 
 ![](imagenes/13.png)
+![](imagenes/14.png)
+![](imagenes/14a.png)
+![](imagenes/15.png)
+![](imagenes/16.png)
+![](imagenes/17.png)
+![](imagenes/18.png)
+![](imagenes/19.png)
+![](imagenes/20.png)
+![](imagenes/21.png)
+![](imagenes/22.png)
+- Puertos
+![](imagenes/23.png)
+![](imagenes/24.png)
+![](imagenes/25.png)
+![](imagenes/26.png)
+![](imagenes/27.png)
+![](imagenes/28.png)
+- Modificar DockerFile
+![](imagenes/29.png)
+![](imagenes/30.png)
+![](imagenes/31.png)
+![](imagenes/32.png)
+![](imagenes/33.png)
+- Volumenes
+![](imagenes/34.png)
+![](imagenes/35.png)
+- Base de datos
