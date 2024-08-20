@@ -45,5 +45,5 @@
 ![](imagenes/22.png)
 ![](imagenes/23.png)
 ![](imagenes/24.png)
-![](imagenes/17.png)
-
+![](imagenes/25.png)
+![](imagenes/26.png)
