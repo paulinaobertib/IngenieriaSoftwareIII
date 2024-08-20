@@ -35,6 +35,7 @@
 
 3.10. Workitems
 ![](imagenes/17.png)
+![](imagenes/27.png)
 
 3.11. User Stories
 ![](imagenes/19.png)
