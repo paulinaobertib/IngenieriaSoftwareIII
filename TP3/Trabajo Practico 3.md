@@ -35,7 +35,6 @@
 
 3.10. Workitems
 ![](imagenes/17.png)
-![](imagenes/27.png)
 
 3.11. User Stories
 ![](imagenes/19.png)
@@ -48,3 +47,6 @@
 ![](imagenes/24.png)
 ![](imagenes/25.png)
 ![](imagenes/26.png)
+
+3.13. Board
+![](imagenes/27.png)
