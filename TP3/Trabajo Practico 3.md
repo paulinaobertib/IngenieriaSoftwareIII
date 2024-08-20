@@ -33,10 +33,17 @@
 3.9. Sprint
 ![](imagenes/16.png)
 
-3.10. User Stories
+3.10. Workitems
+![](imagenes/17.png)
 
-3.11. Task y Bugs
+3.11. User Stories
+![](imagenes/19.png)
+![](imagenes/20.png)
+![](imagenes/21.png)
 
-3.12. Workitems
+3.12. Task y Bugs
+![](imagenes/22.png)
+![](imagenes/23.png)
+![](imagenes/24.png)
 ![](imagenes/17.png)
 
