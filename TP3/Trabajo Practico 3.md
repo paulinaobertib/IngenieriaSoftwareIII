@@ -26,6 +26,14 @@
 
 3.7. Pipeline
 ![](imagenes/18.png)
+![](imagenes/28.png)
+![](imagenes/29.png)
+![](imagenes/30.png)
+![](imagenes/31.png)
+![](imagenes/32.png)
+![](imagenes/33.png)
+![](imagenes/34.png)
+![](imagenes/35.png)
 
 3.8. Cambiar tipo de proceso de Basic a Agile
 ![](imagenes/12.png)
