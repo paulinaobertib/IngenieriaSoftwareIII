@@ -59,3 +59,33 @@ Un agente MS es un agente alojado por Microsoft en la nube, que se configura aut
 ![](imagenes/32.png)
 ![](imagenes/33.png)
 ![](imagenes/34.png)
+
+4.13 Crear un nuevo proyecto en ADO clonado desde un repo que contenga una aplicación en Angular.
+![](imagenes/35.png)
+![](imagenes/36.png)
+![](imagenes/37.png)
+
+4.14 Configurar un pipeline de build para un proyecto de tipo Angular.
+![](imagenes/38.png)
+![](imagenes/39.png)
+![](imagenes/40.png)
+
+4.15 Habilitar CI para el pipeline.
+![](imagenes/41.png)
+![](imagenes/42.png)
+
+4.16 Hacer un cambio a un archivo del proyecto (algún cambio en el HTML que se renderiza por ejemplo) y verificar que se ejecute automáticamente el pipeline.
+![](imagenes/43.png)
+![](imagenes/44.png)
+![](imagenes/45.png)
+
+4.17 Descargar el resultado del pipeline y correr en un servidor web local el sitio construido.
+![](imagenes/46.png)
+![](imagenes/47.png)
+![](imagenes/48.png)
+
+4.18 Mostrar el antes y el después del cambio.
+Antes:
+![](imagenes/49.png)
+Despues:
+![](imagenes/48.png)
