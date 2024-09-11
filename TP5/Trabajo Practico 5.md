@@ -24,6 +24,8 @@
 ![](imagenes/19.png)
 ![](imagenes/20.png)
 ![](imagenes/21.png)
+![](imagenes/21a.png)
+![](imagenes/22.png)
 
 5.4. Optimizar Pipeline de Build
 
