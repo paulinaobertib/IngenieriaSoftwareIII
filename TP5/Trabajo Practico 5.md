@@ -11,10 +11,10 @@
 ![](imagenes/8.png)
 ![](imagenes/9.png)
 ![](imagenes/10.png)
-![](imagenes/11.png)
-![](imagenes/12.png)
 
 5.3. Actualizar Pipeline de Build para que use tareas de DotNetCoreCLI@2 como en el pipeline clásico, luego crear un Pipeline de Release en Azure DevOps con CD habilitada
+![](imagenes/11.png)
+![](imagenes/12.png)
 ![](imagenes/13.png)
 ![](imagenes/14.png)
 ![](imagenes/15.png)
@@ -22,18 +22,27 @@
 ![](imagenes/17.png)
 ![](imagenes/18.png)
 ![](imagenes/19.png)
-![](imagenes/20.png)
-![](imagenes/21.png)
-![](imagenes/21a.png)
-![](imagenes/22.png)
 
 5.4. Optimizar Pipeline de Build
+![](imagenes/11.png)
 
 5.5. Verificar el deploy en la url de la WebApp /weatherforecast
+![](imagenes/20.png)
+![](imagenes/21.png)
+![](imagenes/22.png)
 
 5.6. Realizar un cambio al código del controlador para que devuelva 7 pronósticos, realizar commit, evaluar ejecución de pipelines de build y release, navegar a la url de la webapp/weatherforecast y corroborar cambio
+![](imagenes/23.png)
+![](imagenes/24.png)
+![](imagenes/25.png)
+![](imagenes/26.png)
 
 5.7. Clonar la Web App de QA para que contar con una WebApp de PROD a partir de un Template Deployment en Azure Portal y navegar a la url provista para la WebApp de PROD.
+![](imagenes/27.png)
+![](imagenes/28.png)
+![](imagenes/29.png)
+![](imagenes/30.png)
+![](imagenes/31.png)
 
 5.8. Agregar una etapa de Deploy a Prod en Azure Release Pipelines 
 
