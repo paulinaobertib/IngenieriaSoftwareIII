@@ -45,6 +45,9 @@
 ![](imagenes/31.png)
 
 5.8. Agregar una etapa de Deploy a Prod en Azure Release Pipelines 
+![](imagenes/32.png)
+![](imagenes/33.png)
+![](imagenes/34.png)
 
 5.9.  Realizar un cambio al código del controlador para que devuelva 10 pronósticos, realizar commit, evaluar ejecución de pipelines de build y release, navegar a la url de la webapp/weatherforecast y corroborar cambio, verificar que en la url de la webapp_prod/weatherforecast se muestra lo mismo.
 
