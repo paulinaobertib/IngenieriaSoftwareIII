@@ -1,11 +1,11 @@
 Prerequisitos:
-node
+- node
 ![](imagenes/1.png)
-npm
+- npm
 ![](imagenes/2.png)
-angular
+- angular
 ![](imagenes/3.png)
-.NET Core 8
+- .NET Core 8
 ![](imagenes/4.png)
 
 4.1 Creación de una BD SQL Server para nuestra App
