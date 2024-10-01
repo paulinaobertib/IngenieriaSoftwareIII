@@ -24,3 +24,53 @@ El informe de SonarCloud ha destacado varios aspectos clave para mejorar el proy
 - Seguridad: El informe señala la presencia de valores sensibles, como contraseñas, incrustados en el código, lo que representa una vulnerabilidad significativa. Se recomienda mover estos valores a entornos más seguros.
 - Vulnerabilidades críticas: Se identificaron fallos de seguridad que deben corregirse para evitar posibles ataques que comprometan la estabilidad del sistema y la protección de los datos de los usuarios.
 - Prácticas ineficientes: Se observó el uso de técnicas como "RunSync", que puede afectar el rendimiento de la aplicación. Optimizar estos aspectos mejoraría la eficiencia y escalabilidad del código.
+
+4.3 Pruebas de Integración con Cypress.
+- 4.3.1 En el directorio raiz de nuestro proyecto Angular instalar el siguiente paquete:
+![](imagenes/11.png)
+- 4.3.2 Abrir Cypress:
+![](imagenes/12.png)
+- 4.3.3 Inicializar Cypress en nuestro proyecto:
+![](imagenes/13.png)
+- 4.3.4 Crear nuestra primera prueba navegando a nuestro front:
+![](imagenes/14.png)
+![](imagenes/15.png)
+- 4.3.5 Correr nuestra primera prueba:
+![](imagenes/16.png)
+- 4.3.6 Modificar nuestra prueba para que falle:
+![](imagenes/17.png)
+![](imagenes/18.png)
+- 4.3.7 Grabar nuestras pruebas para que Cypress genere código automático y genere reportes:
+![](imagenes/19.png)
+![](imagenes/20.png)
+- 4.3.8 Hacemos prueba de editar un empleado:
+![](imagenes/21.png)
+![](imagenes/22.png)
+
+4.4 Desafios.
+- Integrar en el pipeline SonarCloud para nuestro proyecto Angular, mostrar el resultado obtenido en SonarCloud:
+![](imagenes/23.png)
+![](imagenes/25.png)
+![](imagenes/24.png)
+Aunque el pipeline realiza sus tareas correctamente, el problema se presenta cuando SonarCloud evalúa el código mediante la Quality Gate. La Quality Gate es un conjunto de condiciones que SonarCloud evalúa para determinar si el código cumple con los estándares de calidad predefinidos. En este caso, el análisis de fiabilidad del código ha fallado, lo que implica que el código nuevo tiene problemas que deben solucionarse antes de aprobar la Quality Gate.
+La causa principal de este fallo es que SonarCloud ha detectado al menos una condición en el código nuevo que no cumple con el estándar de calidad requerido, específicamente en la métrica de "Reliability Rating", donde se exige que el código obtenga una calificación de "A". Esto sugiere que existen errores potenciales en el código que pueden afectar la estabilidad de la aplicación a largo plazo.
+
+- Implementar en Cypress pruebas de integración que incluya los casos desarrollados como pruebas unitarias del front en el TP06:
+    - La longitud máxima del nombre y apellido del empleado debe ser de 100 caracteres.
+    ![](imagenes/29.png)
+    ![](imagenes/35.png)
+    - Validar que el nombre tenga un número mínimo de caracteres, por ejemplo, al menos dos caracteres para evitar entradas inválidas como "A".
+    ![](imagenes/28.png)
+    ![](imagenes/34.png)
+    - Verificar que el nombre no contenga números, ya que no es común en los nombres de empleados.
+    ![](imagenes/27.png)
+    ![](imagenes/33.png)
+    - Prohibir el uso de nombres triviales o genéricos como "Empleado", "N/A", "Nombre", etc.
+    ![](imagenes/26.png)
+    ![](imagenes/31.png)
+    - Evitar que se ingresen caracteres repetidos de forma excesiva, como "Juuuuaannnn".
+    ![](imagenes/30.png)
+    ![](imagenes/32.png)
+
+- Incorporar al pipeline de Deploy la ejecución de las pruebas de integración y la visualización de sus resultados:
+![](imagenes/36.png)
