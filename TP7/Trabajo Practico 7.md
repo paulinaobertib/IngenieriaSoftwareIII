@@ -54,6 +54,11 @@ El informe de SonarCloud ha destacado varios aspectos clave para mejorar el proy
 ![](imagenes/24.png)
 Aunque el pipeline realiza sus tareas correctamente, el problema se presenta cuando SonarCloud evalúa el código mediante la Quality Gate. La Quality Gate es un conjunto de condiciones que SonarCloud evalúa para determinar si el código cumple con los estándares de calidad predefinidos. En este caso, el análisis de fiabilidad del código ha fallado, lo que implica que el código nuevo tiene problemas que deben solucionarse antes de aprobar la Quality Gate.
 La causa principal de este fallo es que SonarCloud ha detectado al menos una condición en el código nuevo que no cumple con el estándar de calidad requerido, específicamente en la métrica de "Reliability Rating", donde se exige que el código obtenga una calificación de "A". Esto sugiere que existen errores potenciales en el código que pueden afectar la estabilidad de la aplicación a largo plazo.
+Para solucionar este problema:
+![](imagenes/41.png)
+![](imagenes/44.png)
+![](imagenes/43.png)
+![](imagenes/42.png)
 
 - Implementar en Cypress pruebas de integración que incluya los casos desarrollados como pruebas unitarias del front en el TP06:
     - La longitud máxima del nombre y apellido del empleado debe ser de 100 caracteres.
