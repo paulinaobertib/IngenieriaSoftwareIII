@@ -74,3 +74,7 @@ La causa principal de este fallo es que SonarCloud ha detectado al menos una con
 
 - Incorporar al pipeline de Deploy la ejecución de las pruebas de integración y la visualización de sus resultados:
 ![](imagenes/36.png)
+![](imagenes/37.png)
+![](imagenes/38.png)
+![](imagenes/39.png)
+![](imagenes/40.png)
