@@ -22,13 +22,23 @@
     ![](imagenes/10.png)
     ![](imagenes/11.png)
     - Agregar a nuestro pipeline una nueva etapa que dependa de nuestra etapa de Construcción de Imagenes Docker y subida a ACR
+    ![](imagenes/16.png)
+    ![](imagenes/17.png)
+    ![](imagenes/18.png)
+    Configuramos el archivo Program.cs para que utilice la variable configurada
+    ![](imagenes/19.png)
+    Otorgamos permisos desde Azure CLI
+    ![](imagenes/20.png)
+    ![](imagenes/21.png)
+    - Ejecutar el pipeline y en Azure Portal acceder al recurso de Azure Container Instances creado. Copiar la url del contenedor y navegarlo desde browser. Verificar que traiga datos.
+    ![](imagenes/22.png)
 
 # Desafios
 1. Agregar tareas para generar imagen Docker de Front
-![](imagenes/12.png)
-![](imagenes/13.png)
-![](imagenes/14.png)
-![](imagenes/15.png)
+    ![](imagenes/12.png)
+    ![](imagenes/13.png)
+    ![](imagenes/14.png)
+    ![](imagenes/15.png)
 2. Agregar tareas para generar en Azure Container Instances un contenedor de imagen Docker de Front.
 
 3. Agregar tareas para correr pruebas de integración en el entorno de QA de Back y Front creado en ACI.
