@@ -35,12 +35,23 @@
 
 # Desafios
 1. Agregar tareas para generar imagen Docker de Front
-    ![](imagenes/12.png)
-    ![](imagenes/13.png)
-    ![](imagenes/14.png)
-    ![](imagenes/15.png)
+    - ![](imagenes/12.png)
+    - ![](imagenes/13.png)
+    - ![](imagenes/14.png)
+    - ![](imagenes/15.png)
 2. Agregar tareas para generar en Azure Container Instances un contenedor de imagen Docker de Front.
-
+    - Creamos la variable
+    - ![](imagenes/23.png)
+    - Modificamos el código del FrontEnd
+    - ![](imagenes/24.png)
+    - ![](imagenes/25.png)
+    - ![](imagenes/26.png)
+    - Modificamos el pipeline
+    - ![](imagenes/27.png)
+    - ![](imagenes/28.png)
+    Corremos el pipeline
+    - ![](imagenes/29.png)
 3. Agregar tareas para correr pruebas de integración en el entorno de QA de Back y Front creado en ACI.
-
+    - ![](imagenes/30.png)
+    - ![](imagenes/31.png)
 4. Agregar etapa que dependa de la etapa de Deploy en ACI QA y genere contenedores en ACI para entorno de PROD.
