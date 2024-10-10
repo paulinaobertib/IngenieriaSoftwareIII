@@ -32,6 +32,8 @@
     ![](imagenes/21.png)
     - Ejecutar el pipeline y en Azure Portal acceder al recurso de Azure Container Instances creado. Copiar la url del contenedor y navegarlo desde browser. Verificar que traiga datos.
     ![](imagenes/22.png)
+    ![](imagenes/22A.png)
+    ![](imagenes/22B.png)
 
 # Desafios
 1. Agregar tareas para generar imagen Docker de Front
@@ -42,16 +44,22 @@
 2. Agregar tareas para generar en Azure Container Instances un contenedor de imagen Docker de Front.
     - Creamos la variable
     - ![](imagenes/23.png)
+    - Instalamos lo necesario
+    - ![](imagenes/31.png)
     - Modificamos el código del FrontEnd
     - ![](imagenes/24.png)
+    - ![](imagenes/24A.png)
     - ![](imagenes/25.png)
     - ![](imagenes/26.png)
+    - ![](imagenes/32.png)
     - Modificamos el pipeline
     - ![](imagenes/27.png)
     - ![](imagenes/28.png)
-    Corremos el pipeline
+    - Corremos el pipeline
     - ![](imagenes/29.png)
-3. Agregar tareas para correr pruebas de integración en el entorno de QA de Back y Front creado en ACI.
+    - Comprobamos
     - ![](imagenes/30.png)
-    - ![](imagenes/31.png)
+    - ![](imagenes/33.png)
+3. Agregar tareas para correr pruebas de integración en el entorno de QA de Back y Front creado en ACI.
+
 4. Agregar etapa que dependa de la etapa de Deploy en ACI QA y genere contenedores en ACI para entorno de PROD.
